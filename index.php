@@ -11,7 +11,7 @@
 <body>
   <h1 style="text-align: center; padding-top: 65px; padding-bottom: 50px;">Loca-Car Cariri</h1>
   <div class="container">
-    <form name="customer" id="customer" method="POST" enctype="multipart/form-data" action="customer.php">
+    <form name="customer" id="customer" method="POST" enctype="multipart/form-data" action="add-customer.php">
       <div class="form-group">
         <label for="exampleInputPassword1">Nome Completo</label>
         <input type="text" class="form-control" id="nome" name="nome">

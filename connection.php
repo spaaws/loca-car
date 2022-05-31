@@ -1,10 +1,10 @@
 <?php
     //Conexão com bando de dados
     function connection(){
-        $servername = HOST;
-        $username   = USERNAME;
-        $password   = PASSWORD;
-        $db         = DATABASE;
+        $servername = getenv('HOST');
+        $username   = getenv('USERNAME');
+        $password   = getenv('PASSWORD');
+        $db         = getenv('DATABASE');
 
         try {
         $conn = new PDO("mysql:host=$servername;dbname=$db;charset=utf8", $username, $password);
